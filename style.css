@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-get-app{
+    width: 100px;
+    height: 30px;
+}
+
+.instagram-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;    
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    font-family: Vibes;
+    font-size: 60px;
+}
+
+h2{
+    padding: 20px;
+}
+
+.remenber{
+    padding: 30px;    
+    border: 1px solid rgb(219,219,219);
+}
